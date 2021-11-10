@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RandomNumber
+comment0.text=\n\ \ This\ class\ generates\ random\ numbers\ that\ will\ be\ used\ to\ generate\ a\ card\n\ \ \n\ \ @author\ Wenkun\ Liao\n\ \ @version\ created\ 17\ April\ 2020\n
+comment1.params=maxValue
+comment1.target=RandomNumber(int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ RandomNumber\n
+comment2.params=max
+comment2.target=int\ setMaxValue(int)
+comment2.text=\n\ Generate\ a\ random\ number\ based\ on\ the\ max\ value\ given\n\ \n\ @para\ \ \ \ max\ \ \ \ \ an\ integer\ given\ to\ the\ method\ to\ get\ the\ range\ of\ generated\ number\n\ @return\ \ \ \ \ \ \ \ \ \ return\ the\ generated\ number\n
+numComments=3
