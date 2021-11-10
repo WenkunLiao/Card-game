@@ -1,12 +1,16 @@
-
+import java.util.*;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.lang.*;
+import javax.script.*;
 /**
  * This class gather the methods to start a game.
  *
  * @author Wenkun Liao
- * @version created 3 May 2020
  */
 public class Play
 {
+    
     /**
      * Method to run the game
      * 
@@ -36,8 +40,8 @@ public class Play
                 newGame.setNumber();
                 newGame.attemptGuessNumber();
             }
-            System.out.print("Do you know?\n");
-            System.out.print("In the 1837 edition of Foster's Complete Hoyle, R. F. Foster wrote: 'the game of poker, as first played in the United States, five cards to each player from a twenty-card pack, is undoubtedly the Persian game of As-Nas.'\n");
+
+
             newGame.renewPlayerData();
             reset = newGame.continueGame();            
          }

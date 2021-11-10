@@ -3,7 +3,6 @@ import java.util.*;
  * This class lists the rules for the game.
  *
  * @author Wenkun Liao
- * @version created 26 April 2020
  */
 public class Game
 {

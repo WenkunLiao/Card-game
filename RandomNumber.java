@@ -3,7 +3,6 @@ import java.util.Random;
  *  This class generates random numbers that will be used to generate a card
  *  
  *  @author Wenkun Liao
- *  @version created 17 April 2020
  */
 public class RandomNumber
 {

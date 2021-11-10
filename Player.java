@@ -3,7 +3,6 @@ import java.util.*;
  * Player class stores the detail of game players.
  *
  * @author Wenkun Liao
- * @version created 17 April 2020 
  */
 public class Player
 {

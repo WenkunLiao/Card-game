@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\n\ This\ class\ stores\ the\ detail\ of\ the\ generated\ card.\n\n\ @author\ Wenkun\ Liao\n
+comment1.params=suit\ number
+comment1.target=Card(int,\ int)
+comment1.text=\n\ Parameterised\ constructor\ for\ objects\ of\ class\ Card.\n\ \n\ @param\ \ \ suit\ \ \ \ the\ number\ that\ going\ to\ be\ suit\ type\ of\ the\ card\n\ \ \ \ \ \ \ \ \ \ number\ \ the\ number\ that\ goint\ to\ be\ number\ type\ of\ the\ card\n
+comment2.params=
+comment2.target=Card()
+comment2.text=\n\ Non-parameterised\ constructor\ for\ objects\ of\ class\ Card.\n
+comment3.params=
+comment3.target=java.lang.String\ displayState()
+comment3.text=\n\ Method\ to\ return\ the\ property\ of\ the\ card\n\ \n\ @return\ \ \ \ \ \ return\ the\ suit\ type\ and\ number\ type\ of\ the\ card\n
+comment4.params=
+comment4.target=int\ getCardNumber()
+comment4.text=\n\ Method\ to\ return\ card\ number\ \n\ \n\ @return\ \ \ \ \ \ return\ the\ card\ number\n
+comment5.params=
+comment5.target=int\ getCardSuit()
+comment5.text=\n\ Method\ to\ return\ card\ suit\n\ \n\ @return\ \ \ \ \ \ return\ the\ card\ suit\n
+comment6.params=suit\ number
+comment6.target=void\ setCard(int,\ int)
+comment6.text=\n\ Method\ to\ return\ set\ a\ new\ card\ based\ on\ the\ parameter\n\ \n\ @param\ \ suit\ \ \ \ the\ number\ going\ to\ be\ new\ card\ suit\n\ \ \ \ \ \ \ \ \ number\ \ the\ number\ goint\ to\ be\ new\ card\ number\n
+numComments=7

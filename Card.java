@@ -3,7 +3,6 @@
  * This class stores the detail of the generated card.
  *
  * @author Wenkun Liao
- * @version 19 April 2020
  */
 public class Card
 {
