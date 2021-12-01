@@ -21,8 +21,6 @@ public class RandomNumber
     /**
      * Generate a random number based on the max value given
      * 
-     * @para    max     an integer given to the method to get the range of generated number
-     * @return          return the generated number
      */
     public int setMaxValue(int max)
     {

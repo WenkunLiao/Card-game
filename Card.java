@@ -12,8 +12,6 @@ public class Card
     /**
      * Parameterised constructor for objects of class Card.
      * 
-     * @param   suit    the number that going to be suit type of the card
-     *          number  the number that goint to be number type of the card
      */
     public Card(int suit, int number)
     {
@@ -33,7 +31,6 @@ public class Card
     /**
      * Method to return the property of the card
      * 
-     * @return      return the suit type and number type of the card
      */
     public String displayState()
     {
@@ -73,7 +70,6 @@ public class Card
     /**
      * Method to return card number 
      * 
-     * @return      return the card number
      */
     public int getCardNumber()
     {
@@ -83,7 +79,6 @@ public class Card
     /**
      * Method to return card suit
      * 
-     * @return      return the card suit
      */
     public int getCardSuit()
     {
@@ -93,8 +88,6 @@ public class Card
     /**
      * Method to return set a new card based on the parameter
      * 
-     * @param  suit    the number going to be new card suit
-     *         number  the number goint to be new card number
      */
     public void setCard(int suit, int number)
     {

@@ -1,8 +1,5 @@
 import java.util.*;
 import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.lang.*;
-import javax.script.*;
 /**
  * This class gather the methods to start a game.
  *
@@ -10,7 +7,6 @@ import javax.script.*;
  */
 public class Play
 {
-    
     /**
      * Method to run the game
      * 
@@ -40,11 +36,22 @@ public class Play
                 newGame.setNumber();
                 newGame.attemptGuessNumber();
             }
-
-
+            try{
+            File file = new File("./service.txt");
+            InputStreamReader read = new InputStreamReader(new FileInputStream(file));
+            BufferedReader br = new BufferedReader(read);
+            String lineTxt = null;
+            while ((lineTxt = br.readLine()) != null)
+            {
+                System.out.println(lineTxt);
+            }
+            read.close();
+            }
+            catch(Exception e){}
+            System.out.println("\n");
             newGame.renewPlayerData();
             reset = newGame.continueGame();            
-         }
+          }
         while (reset == 1);
         newGame.displayHighestScore();
     }

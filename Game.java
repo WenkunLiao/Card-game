@@ -53,6 +53,7 @@ public class Game
         if (guessNumber == hiddenNumber)
         {
             System.out.println("Congratulation! You win the game!");
+            System.out.println("Your score is " + score);
             totalGamesPlayed ++;
             gameWon ++;
         }
@@ -68,7 +69,8 @@ public class Game
                 score -= 6;
                 if (score <= 0)
                 {
-                    System.out.println("Game Over! ");
+                    System.out.println("Game Over! You are run out of scoresT.T");
+                    System.out.println("Your score is " + score);
                     totalGamesPlayed ++;
                     gameLost ++;
                 }
@@ -87,6 +89,7 @@ public class Game
                     {
                         System.out.println("Game Over! You are run out of scores T.T");
                         System.out.println("The correct answer is " + hiddenNumberType);
+                        System.out.println("Your score is " + score);
                         totalGamesPlayed ++;
                         gameLost ++;
                     }
@@ -101,6 +104,7 @@ public class Game
                     {
                         System.out.println("Game Over! You are run out of scores T.T");
                         System.out.println("The correct answer is " + hiddenNumberType);
+                        System.out.println("Your score is " + score);
                         totalGamesPlayed ++;
                         gameLost ++;
                      }
@@ -114,6 +118,7 @@ public class Game
             {
                    score -= 20;
                    System.out.println("Game Over! The correct answer is " + hiddenNumberType + "|･ω･`)");
+                   System.out.println("Your score is " + score);
                    totalGamesPlayed ++;
                    gameLost ++;
             }
@@ -155,7 +160,6 @@ public class Game
     /**
      * Method to get whether player want to player another game.
      * 
-     * @return if player wants to have another game, method will return 1, otherwise it will return 0
      */
     public int continueGame()
     {
@@ -185,7 +189,6 @@ public class Game
     /**
      * Method to know whether player has a correct guess of card suit
      * 
-     * @return  return true if player guesses correctly
      */
     public boolean compareNumber()
     {
@@ -195,7 +198,6 @@ public class Game
     /**
      * Method to know whether player has a correct guess of card number
      * 
-     * @return  return true if player guesses correctly
      */
     public boolean compareSuit()
     {
@@ -234,7 +236,6 @@ public class Game
     /**
      * Method to get how many attempts player has on guessing card number
      * 
-     * @return  return how many attempts player has on guessing card number
      */
     public int getNumberOfAttemptNumber()
     {
@@ -244,7 +245,6 @@ public class Game
     /**
      * Method to get how many attempts player has on guessing card suit
      * 
-     * @return  return how many attempts player has on guessing card suit
      */
     public int getNumberOfAttemptSuit()
     {
@@ -254,7 +254,6 @@ public class Game
     /**
      * Method to get player's name
      * 
-     * @return  return player's name
      */
     public String getPlayerName()
     {
@@ -264,7 +263,6 @@ public class Game
     /**
      * Method to get player's score for current game
      * 
-     * @return  return player's score for current game
      */
     public int getScore()
     {
@@ -305,7 +303,6 @@ public class Game
     /**
      * Method to generate a new card
      * 
-     * @param   card    the card that goning to be the new card
      */
     public void setCard(Card card)
     {
@@ -344,7 +341,8 @@ public class Game
     public void setNumber()
     {
         numberOfAttemptNumber ++;
-        System.out.println("Which card number would you guess? (Please enter a number between 1 to 13)");
+        System.out.println("Which card number would you guess? (Please enter a number between 1 to 13)" +
+                           " Your current score is " + score);
         Scanner guessCardNumber = new Scanner(System.in);
         guessNumber = guessCardNumber.nextInt();
         while (guessNumber < 0 || 
@@ -397,7 +395,8 @@ public class Game
     public void setSuit()
     {
         numberOfAttemptSuit ++;
-        System.out.println("Which suit would you guess? (Please enter H, D, C or S)" );
+        System.out.println("Which suit would you guess? (Please enter H, D, C or S)" + " Your current score is " 
+                            + score);
         Scanner suit = new Scanner(System.in);
         suitGuessed = suit.nextLine();
         switch (suitGuessed)
