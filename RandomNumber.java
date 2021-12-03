@@ -19,8 +19,7 @@ public class RandomNumber
     }
 
     /**
-     * Generate a random number based on the max value given
-     * 
+     * Generate a random number based on the max value given 
      */
     public int setMaxValue(int max)
     {

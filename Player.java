@@ -41,7 +41,6 @@ public class Player
     
     /**
      * Method to return player's guess number
-     * 
      */
     public int getGuessNumber(int guessNumber)
     {
@@ -50,7 +49,6 @@ public class Player
     
     /**
      * Method to return player's guess suit
-     * 
      */
     public String getGuessSuit(String guessSuit)
     {
@@ -59,7 +57,6 @@ public class Player
         
     /**
      * Method to return how many games player has won
-     * 
      */
     public int getGamesWon()
     {
@@ -68,7 +65,6 @@ public class Player
     
     /**
      * Method to return player's highest score
-     * 
      */
     public int getHighestScore()
     {
@@ -77,7 +73,6 @@ public class Player
     
     /**
      * Method to return how many games player has played
-     * 
      */
     public int getNumbersOfGamesPlayed()
     {
@@ -86,7 +81,6 @@ public class Player
     
     /**
      * Method to return player's name
-     * 
      */
     public String getPlayerName()
     {
@@ -94,8 +88,7 @@ public class Player
     }
     
     /**
-     * Method to return player's score in current game
-     * 
+     * Method to return player's score in current game 
      */
     public int getScore()
     {
@@ -103,8 +96,7 @@ public class Player
     }
 
     /**
-     * Method to renew the highest score based on the parameter
-     * 
+     * Method to renew the highest score based on the parameter 
      */
     public void setHighestScore(int newHighest)
     {
@@ -112,8 +104,7 @@ public class Player
     }
     
     /**
-     * Method renew how many games player has played
-     * 
+     * Method renew how many games player has played 
      */
     public void setGamesPlayed(int newNumber)
     {
@@ -121,8 +112,7 @@ public class Player
     }
     
     /**
-     * Method to renew how many games player has won
-     * 
+     * Method to renew how many games player has won 
      */
     public void setGamesWon(int newWon)
     {
@@ -130,8 +120,7 @@ public class Player
     }
     
     /**
-     * Method to renew player's name
-     * 
+     * Method to renew player's name 
      */      
     public void setPlayerName(String newName)
     {
@@ -139,8 +128,7 @@ public class Player
     }
     
     /**
-     * Method to renew the score of current game
-     * 
+     * Method to renew the score of current game 
      */
     public void setScore(int newScore)
     {

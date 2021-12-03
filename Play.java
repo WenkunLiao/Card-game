@@ -9,7 +9,6 @@ public class Play
 {
     /**
      * Method to run the game
-     * 
      */
     public void PlayAGame()
     {

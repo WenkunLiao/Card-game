@@ -45,8 +45,7 @@ public class Game
     }
     
     /**
-     * Method to make the rules for the section of guessing card number
-     * 
+     * Method to make the rules for the section of guessing card number 
      */
     public void attemptGuessNumber()
     {
@@ -127,8 +126,7 @@ public class Game
     }
     
     /**
-     * Method to make the rules for the section of guessing card suit
-     * 
+     * Method to make the rules for the section of guessing card suit 
      */
     public void attemptGuessSuit()
     {
@@ -158,8 +156,7 @@ public class Game
     }
     
     /**
-     * Method to get whether player want to player another game.
-     * 
+     * Method to get whether player want to player another game. 
      */
     public int continueGame()
     {
@@ -188,7 +185,6 @@ public class Game
     
     /**
      * Method to know whether player has a correct guess of card suit
-     * 
      */
     public boolean compareNumber()
     {
@@ -197,7 +193,6 @@ public class Game
     
     /**
      * Method to know whether player has a correct guess of card number
-     * 
      */
     public boolean compareSuit()
     {
@@ -206,7 +201,6 @@ public class Game
     
     /**
      * Method to print out player's highest score
-     * 
      */
     public void displayHighestScore()
     {
@@ -215,7 +209,6 @@ public class Game
     
     /**
      * Method to print out the overall result about the all games
-     * 
      */
     public void displayResult()
     {
@@ -226,7 +219,6 @@ public class Game
     
     /**
      * Method to print out player's score for current game
-     * 
      */
     public void displayScore()
     {
@@ -235,7 +227,6 @@ public class Game
     
     /**
      * Method to get how many attempts player has on guessing card number
-     * 
      */
     public int getNumberOfAttemptNumber()
     {
@@ -244,7 +235,6 @@ public class Game
     
     /**
      * Method to get how many attempts player has on guessing card suit
-     * 
      */
     public int getNumberOfAttemptSuit()
     {
@@ -253,7 +243,6 @@ public class Game
     
     /**
      * Method to get player's name
-     * 
      */
     public String getPlayerName()
     {
@@ -262,7 +251,6 @@ public class Game
     
     /**
      * Method to get player's score for current game
-     * 
      */
     public int getScore()
     {
@@ -270,8 +258,7 @@ public class Game
     }
     
     /**
-     * Method to renew player's data at the end of each game
-     * 
+     * Method to renew player's data at the end of each game 
      */
     public void renewPlayerData()
     {
@@ -283,8 +270,7 @@ public class Game
     }
 
     /**
-     * Method to reset game if player chooses to have another game
-     * 
+     * Method to reset game if player chooses to have another game 
      */
     public void resetGame()
     {
@@ -302,7 +288,6 @@ public class Game
 
     /**
      * Method to generate a new card
-     * 
      */
     public void setCard(Card card)
     {
@@ -336,7 +321,6 @@ public class Game
         
     /**
      * Method to set what player guesses for card number
-     * 
      */
     public void setNumber()
     {
@@ -370,8 +354,7 @@ public class Game
     }
 
     /**
-     * Method to set player's name
-     * 
+     * Method to set player's name 
      */
     public void setPlayer()
     {
@@ -390,7 +373,6 @@ public class Game
     
     /**
      * Method to set what player guesses for card suit
-     * 
      */
     public void setSuit()
     {
@@ -431,7 +413,6 @@ public class Game
     
     /**
      * Method to print welcome message at the start of game
-     * 
      */
     public void startGame()
     {

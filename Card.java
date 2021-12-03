@@ -10,8 +10,7 @@ public class Card
     private int number;
 
     /**
-     * Parameterised constructor for objects of class Card.
-     * 
+     * Parameterised constructor for objects of class Card. 
      */
     public Card(int suit, int number)
     {
@@ -30,7 +29,6 @@ public class Card
     
     /**
      * Method to return the property of the card
-     * 
      */
     public String displayState()
     {
@@ -68,8 +66,7 @@ public class Card
     }
 
     /**
-     * Method to return card number 
-     * 
+     * Method to return card number  
      */
     public int getCardNumber()
     {
@@ -77,8 +74,7 @@ public class Card
     }
     
     /**
-     * Method to return card suit
-     * 
+     * Method to return card suit 
      */
     public int getCardSuit()
     {
@@ -86,8 +82,7 @@ public class Card
     }
     
     /**
-     * Method to return set a new card based on the parameter
-     * 
+     * Method to return set a new card based on the parameter 
      */
     public void setCard(int suit, int number)
     {

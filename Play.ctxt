@@ -3,5 +3,5 @@ comment0.target=Play
 comment0.text=\n\ This\ class\ gather\ the\ methods\ to\ start\ a\ game.\n\n\ @author\ Wenkun\ Liao\n
 comment1.params=
 comment1.target=void\ PlayAGame()
-comment1.text=\n\ Method\ to\ run\ the\ game\n\ \n
+comment1.text=\n\ Method\ to\ run\ the\ game\n
 numComments=2
